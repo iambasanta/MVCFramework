@@ -1,0 +1,15 @@
+{
+  "name": "basanta/mvc-framework",
+  "authors": [
+    {
+      "name": "iambasanta",
+      "email": "sangpangbasanta@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
+    }
+  },
+  "require": {}
+}
