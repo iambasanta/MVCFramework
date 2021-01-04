@@ -26,6 +26,7 @@ class User extends DbModel
     public function register()
     {
         $this->status = self::STATUS_INACTIVE;
+        $this->password = password_hash($this->password, PASSWORD_DEFAULT);
         return $this->save();
     }
 
