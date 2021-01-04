@@ -33,7 +33,7 @@ class Field
                 </div>
             </div>
             ',
-            $this->attribute,
+            $this->model->lables()[$this->attribute] ?? $this->attribute,
             $this->type,
             $this->attribute,
             $this->model->{$this->attribute},
