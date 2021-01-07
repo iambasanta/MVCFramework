@@ -1,4 +1,7 @@
-<h1>Register Yourself</h1>
+<?php
+/* @var app\models\User */
+?>
+<h1 class="text-center">Register Yourself</h1>
 <?php $form = \app\core\form\Form::begin('', "post") ?>
 <div class="row">
     <div class="col">
