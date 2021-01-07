@@ -2,6 +2,7 @@
 
 namespace app\core;
 
+use Exception;
 
 class Application
 {
@@ -57,7 +58,14 @@ class Application
 
     public function run()
     {
-        echo $this->router->resolve();
+        try {
+            echo $this->router->resolve();
+        } catch (Exception $e) {
+            $this->response->setStatusCode($e->getCode());
+            echo $this->router->renderView('_error', [
+                'exception' => $e
+            ]);
+        }
     }
 
     public function login(DbModel $user)
