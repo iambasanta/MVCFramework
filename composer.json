@@ -8,10 +8,11 @@
   ],
   "autoload": {
     "psr-4": {
-      "app\\": "./"
+      "app\\": "."
     }
   },
   "require": {
-    "vlucas/phpdotenv": "^5.2"
+    "vlucas/phpdotenv": "^5.2",
+    "basanta/php-mvc-core": "^0.0.1"
   }
 }
