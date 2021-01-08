@@ -14,6 +14,8 @@ Mini MVC framework using PHP. This is the fun project that i created with the he
 
 3. Download the archive or clone the [repo](https://github.com/iambasanta/MVCFramework) using git
 
+4. `cd` into that project directory
+
 4. Create `.env` file with the help of `.env.example`
 
 5. Adjust the database parameters in `.env`
