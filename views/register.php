@@ -15,5 +15,5 @@
 <?php echo $form->field($model, 'password')->passwordField() ?>
 <?php echo $form->field($model, 'confirm_password')->passwordField() ?>
 
-<button type="submit" class="btn btn-primary my-2">Register</button>
+<button type="submit" class="btn btn-success my-2">Register</button>
 <?php echo \app\core\form\Form::end() ?>
