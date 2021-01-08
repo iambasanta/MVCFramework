@@ -1,12 +1,12 @@
-#Mini MVC Framework
+# Mini MVC Framework
 
 Mini MVC framework using PHP. This is the fun project that i created with the help of youtube tutorial.
 
-###Playlist link
+### Playlist link
 
 [The Codeholic](https://www.youtube.com/playlist?list=PLLQuc_7jk__Uk_QnJMPndbdKECcTEwTA1)
 
-##**Installation**
+## **Installation**
 
 1.PHP version must be 7.4 and above
 
