@@ -1,6 +1,6 @@
 # Mini MVC Framework
 
-Mini MVC framework using PHP. This is the fun project that i created with the help of youtube tutorial.
+Mini MVC framework using PHP. This is a fun project that i created with the help of youtube tutorial.
 
 ### Playlist link
 
