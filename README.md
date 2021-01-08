@@ -26,5 +26,5 @@ Mini MVC framework using PHP. This is the fun project that i created with the he
 
 8. Start php server by running `php -S localhost:8080` or `php -S 127.0.0.1:8080` (you can configure port accordingly)
 
-9. Open your favoroite browser and browse [http://127.0.0.1](http://localhost:8080)
+9. Open your favourite browser and browse [http://127.0.0.1](http://localhost:8080)
 
