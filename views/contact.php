@@ -1,9 +1,9 @@
 <?php
-/* @var $this \app\core\View*/
+/* @var $this \basanta\phpmvc\View*/
 /* @var $model\app\models\ContactForm*/
 
-use app\core\form\Form;
-use app\core\form\TextareaField;
+use basanta\phpmvc\form\Form;
+use basanta\phpmvc\form\TextareaField;
 
 $this->title = 'Contact';
 ?>

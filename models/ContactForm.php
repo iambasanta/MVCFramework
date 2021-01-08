@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-use app\core\Model;
+use basanta\phpmvc\Model;
 
 class ContactForm extends Model
 {

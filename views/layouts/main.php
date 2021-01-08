@@ -1,6 +1,6 @@
 <?php
 
-use app\core\Application;
+use basanta\phpmvc\Application;
 
 ?>
 <!doctype html>

@@ -3,7 +3,7 @@
 
 use app\controllers\SiteController;
 use app\controllers\AuthController;
-use app\core\Application;
+use basanta\phpmvc\Application;
 
 require_once __DIR__ . '/vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);

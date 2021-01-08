@@ -2,8 +2,8 @@
 
 namespace app\models;
 
-use app\core\Application;
-use app\core\Model;
+use basanta\phpmvc\Application;
+use basanta\phpmvc\Model;
 
 class UserLogin extends Model
 {

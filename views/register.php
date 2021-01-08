@@ -2,7 +2,7 @@
 /* @var app\models\User */
 ?>
 <h1 class="text-center">Register Yourself</h1>
-<?php $form = \app\core\form\Form::begin('', "post") ?>
+<?php $form = \basanta\phpmvc\form\Form::begin('', "post") ?>
 <div class="row">
     <div class="col">
         <?php echo $form->field($model, 'first_name') ?>
@@ -16,4 +16,4 @@
 <?php echo $form->field($model, 'confirm_password')->passwordField() ?>
 
 <button type="submit" class="btn btn-success my-2">Register</button>
-<?php echo \app\core\form\Form::end() ?>
+<?php echo \basanta\phpmvc\form\Form::end() ?>

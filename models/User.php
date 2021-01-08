@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-use app\core\UserModel;
+use basanta\phpmvc\UserModel;
 
 class User extends UserModel
 {
