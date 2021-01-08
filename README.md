@@ -12,13 +12,13 @@ Mini MVC framework using PHP. This is the fun project that i created with the he
 
 2.Make sure you have [composer](https://getcomposer.org/) installed in your machine
 
-3.Download the archive or clone the repo using git
+3.Download the archive or clone the [repo](https://github.com/iambasanta/MVCFramework) using git
 
-4.Create `.env` file with the help of .env.example
+4.Create `.env` file with the help of `.env.example`
 
-5.Adjust the database parameters in .env
+5.Adjust the database parameters in `.env`
 
-6.Run composer install
+6.Run `composer install`
 
 7.Navigate to public folder
 
