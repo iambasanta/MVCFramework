@@ -3,6 +3,7 @@
 namespace app\core;
 
 use Exception;
+use app\core\db\Database;
 
 class Application
 {
@@ -15,7 +16,7 @@ class Application
     public Response $response;
     public Database $db;
     public Session $session;
-    public ?DbModel $user;
+    public ?UserModel $user;
     public View $view;
 
     public static Application $app;
@@ -71,7 +72,7 @@ class Application
         }
     }
 
-    public function login(DbModel $user)
+    public function login(UserModel $user)
     {
         $this->user = $user;
         $prmaryKey = $user->primaryKey();
